@@ -59,7 +59,7 @@ public class UserValidation {
         Pattern pattern = Pattern.compile("^[A-Z][a-z]{2,20}$");
         Matcher matcher = pattern.matcher(name);
         if (matcher.matches()) {
-            System.out.println("Given name is Valid");
+            System.out.println("Given name is valid");
         }
         else {
             System.out.println("Given name is not valid");
